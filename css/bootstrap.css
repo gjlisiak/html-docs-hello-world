@@ -5793,6 +5793,19 @@ button.list-group-item-danger.active:focus {
 .panel-danger > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ebccd1;
 }
+.healthbot-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+.healthbot-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
 .embed-responsive {
   position: relative;
   display: block;
